@@ -20,7 +20,10 @@ application server serve page fragments, cache server re-assemble pages
 ```xml 
 <esi:include src="index$(GEO{'country_code'}|'US').html" alt="indexUS.html" ttl="2h" maxwait="5000"/>
 ```
-- dynamic page based on cookie, logged in, shopping cart is full<br> ``` <esi:when test="$(HTTP_COOKIE{'i'})"> ... ```
+- dynamic page based on cookie, logged in, shopping cart is full
+```xml
+<esi:when test="$(HTTP_COOKIE{'i'})"> ... 
+```
 - dynamic page based on time, set page TTL (time-to-live)
  
 ## architecture example
