@@ -11,7 +11,7 @@ also called application delivery controller ([ADC](http://en.wikipedia.org/wiki/
 ## software load balancer
 - [LVS](http://en.wikipedia.org/wiki/Linux_Virtual_Server)
 
-### hardware vs software[ref(http://serverfault.com/a/173229)]
+### hardware vs software [ref] (http://serverfault.com/a/173229)
 hardware load balancers are also full-fledged PC, implement a richer set of features.
 
 ## DMZ network
@@ -21,7 +21,7 @@ DMZ: a network exposing internal resources to external web.
 -  **forward proxy** can be installed to provide outside internet access for internal resources
 - **reverse proxy** can be placed into DMZ to allow outside to access internal resource.
 
-software
+solutions:
 
 - squid
 - haproxy
